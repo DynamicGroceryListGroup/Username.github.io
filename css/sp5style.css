@@ -10,6 +10,61 @@ h1
     font-size: larger;
 }
 
-p{
+p
+{
 
 }
+
+.flex-container
+{
+    display: flex;
+    background-color: yellow;
+}
+
+.upper
+{
+
+}
+
+.center
+{
+
+}
+
+.lower
+{
+
+}
+
+.footer
+{
+    font-size: smaller;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.viewnav
+{
+    display: flex;
+    background-color: green;   
+}
+
+.viewnav_inner
+{
+
+}
+
+.view
+{
+
+}
+.viewer
+{
+
+}
+
+#wrapper
+{
+
+}
+
