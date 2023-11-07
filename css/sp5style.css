@@ -1,6 +1,6 @@
 body
 {
-    background-image: -webkit-radial-gradient();
+    background-color:black;
 }
 
 h1
@@ -13,6 +13,12 @@ h1
 p
 {
 
+}
+
+#page_viewer
+{
+    height: 775px;
+    width: 100%;
 }
 
 .flex-container
@@ -68,3 +74,20 @@ p
 
 }
 
+.grid-container 
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* Not needing background color for this
+    background-color:white;
+    */
+    padding: 10px;
+  }
+  .grid-item 
+  {
+    background-color: black;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }

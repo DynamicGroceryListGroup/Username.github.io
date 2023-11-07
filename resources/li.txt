@@ -1,0 +1,3 @@
+My name is Logan Icard and I am a senior here at Kennesaw State University with a degree in Computer Science. I have taken classes in Artificial Intelligence, Data Mining, and Information Retrieval to go along with the standard curriculum 
+to go along with normal curriculum for Computer Science. In completing these classes, I have become proficient in Java and Python, as well as familiar with Dart, C#, and R. I have limited experience with creating UI and more experience 
+creating the back-end systems for assignemnts in class, but I have enjoyed the time I have gotten to spend on it.  

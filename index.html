@@ -7,7 +7,9 @@
     <meta name="Description" content="Website hosted on GitHub to track the progress of the senior project course for the group SP-5: Yellow. This website will showcase the collaborative works of the group members.">
     <link rel="icon" href="https://dynamicgrocerylistgroup/favicon.ico">
     <link rel="stylesheet" href="./css/sp5style.css">
-    <script type="text/javascript" src="./"></script>
+    <!--<script type="text/javascript" src="./javascript/sp5javascrypt.js">
+    -->   
+    </script>
     <title>
         KSU - Senior Project - SP5 Yellow
     </title>
@@ -23,66 +25,43 @@
                 <div class="center">
                     <div class="viewnav">
                         <div class="viewnav_inner">
-                            <h3>
+                            <h3 align="center">
                                 <span>
                                     Project
                                 </span>
-                                    " Navigation"
+                                     Navigation
                             </h3>
-                            <ul>
-                                <li>
-                                    <a href="Team.html">
-                                        Meet the Team
-                                    </a>
-                                </li>
+                            <p>
+                                <button type="button" onclick="selectpage(0)">
+                                    Home
+                                </button>
+                                <button type="button" onclick="selectpage(1)">
+                                    Meet the Team
+                                </button>
+                                <button type="button" onclick="selectpage(2)">
+                                    Documents
+                                </button>
+                                <button type="button" onclick="selectpage(3)">
+                                    Code
+                                </button>
+                                <button type="button" onclick="selectpage(4)">
+                                    References
+                                </button>
                                 <br>
-                                <li>
-                                    <a href="SRD.html">
-                                        System Requirements Document
-                                    </a>
-                                </li>
-                                <br>
-                                <li>
-                                    <a href="SSD.html">
-                                        System Specifications Document
-                                    </a>
-                                </li>
-                                </br>
-                                <li>
-                                    <a href="SDD.html">
-                                        System Design Document
-                                    </a>
-                                </li>
-                                </br>
-                                <li>
-                                    <a href="GC.html">
-                                        Gant Chart - Time Line
-                                    </a>
-                                </li>
-                                </br>
-                                <li>
-                                    <a href="STP.html">
-                                        System Test Plan
-                                    </a>
-                                </li>
-                                </br>
-                                <li>
-                                    <a href="SD.html">
-                                        Software Documentation
-                                    </a>
-                                </li>
-                                </br>
-                            </ul>
+                            </p>
+
                         </div>
                     </div>
                     <h2>
                         Viewer
                     </h2>
                     <div class="view">
-                        <span class="viewer">
-                            <iframe scr="./html/home.html" title="Project Content">
-                            </iframe>
-                        </span>
+                        
+                                    <span class="viewer">
+                                        <iframe align="center" id="page_viewer" src="./html/welcome.html" title="Project Content">
+                                        </iframe>
+                                    </span>
+                                
                     </div>
                 </div>
             </p>
@@ -92,12 +71,43 @@
 
     </div>
     <h1>
-        Coming Soon
+        <font color ="Yellow">
+            Coming Soon: Video Demo
+        </font>
     </h1>
     <div class="lower">
         <p class="footer">
-            Website design by Jonathan Golden. For comments additional information contact @ emailaddress
+            <font color="Yellow">
+                <!-- Website design by Jonathan Golden.--> For comments additional information contact @ emailaddress
+            </font>
         </p>
     </div>
+    <script>
+         function selectpage(i) 
+{
+    var a;
+    if(i == 0) 
+    {
+        a = "./html/welcome.html"
+    }
+    if(i == 1) 
+    {
+        a = "./html/team.html"
+    }
+    if(i == 2) 
+    {
+        a = "./html/documents.html"
+    }
+    if(i == 3) 
+    {
+        a = "https://github.com/DynamicGroceryListGroup"
+    }
+    if(i == 4) 
+    {
+        a = "./html/references.html"
+    }
+    document.getElementById('page_viewer').src = a;
+}
+    </script>
 </body>
 </html>
