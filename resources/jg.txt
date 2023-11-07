@@ -1,1 +1,4 @@
-TEST
+Hello, I am Jonathan Golden, a senior at Kennesaw State University.
+I have been facinated with technology since a young age.
+After working with multiple enterprise level softwares, I realised that some things confused me in design.
+So in a means to better my self and future fiscal stability, I decided to get a degree in Computer Science as a mean to improve upon or create new tools for businesses.

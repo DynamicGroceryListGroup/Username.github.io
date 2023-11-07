@@ -1,1 +1,4 @@
-TEST
+My name is Chandara Mor, and I am currently a Senior at Kennesaw State University. 
+I will be graduating in December of 2023 with a Bachelor of Science in Computer Science.
+Courses such as Cryptography, Secure Software Development, and Cybersecurity have helped prepare me for
+my future career interest.

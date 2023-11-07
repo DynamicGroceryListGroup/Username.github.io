@@ -19,57 +19,43 @@
         <p align="center">
             <br>
             <img src="./images/ksu-logo2.png" alt="KSU_Banner" width="473">
-            <h1>
-                Senior Project: SP5-Yellow
-            </h1>
-                <div class="center">
-                    <div class="viewnav">
-                        <div class="viewnav_inner">
-                            <h3 align="center">
-                                <span>
-                                    Project
-                                </span>
-                                     Navigation
-                            </h3>
-                            <p>
-                                <button type="button" onclick="selectpage(0)">
-                                    Home
-                                </button>
-                                <button type="button" onclick="selectpage(1)">
-                                    Meet the Team
-                                </button>
-                                <button type="button" onclick="selectpage(2)">
-                                    Documents
-                                </button>
-                                <button type="button" onclick="selectpage(3)">
-                                    Code
-                                </button>
-                                <button type="button" onclick="selectpage(4)">
-                                    References
-                                </button>
-                                <br>
-                            </p>
-
-                        </div>
-                    </div>
-                    <h2>
-                        Viewer
-                    </h2>
-                    <div class="view">
-                        
-                                    <span class="viewer">
-                                        <iframe align="center" id="page_viewer" src="./html/welcome.html" title="Project Content">
-                                        </iframe>
-                                    </span>
-                                
-                    </div>
-                </div>
-            </p>
-        </div>
+        </p>
+        <h1 id="index">
+            Senior Project: SP5-Yellow
+        </h1>
+        <div class="viewnav">
+            <h3 id="index">
+                Navigation
+            </h3>          
+            <div class="viewnav">
+                <span id="button_group">
+                    <button type="button" onclick="selectpage(0)">
+                        Home
+                    </button>
+                    <button type="button" onclick="selectpage(1)">
+                        Meet the Team
+                    </button>
+                    <button type="button" onclick="selectpage(2)">
+                        Documents
+                    </button>
+                    <button type="button" onclick="selectpage(3)">
+                        Code
+                    </button>
+                    <button type="button" onclick="selectpage(4)">                                    References                    </button>
+                </span>
+            </div>
+        </div>    
+        <h2>
+            Viewer
+        </h2>
+        <div class="view">
+            <span class="viewer">
+                <iframe align="center" id="page_viewer" src="./html/welcome.html" title="Project Content">
+                </iframe>
+            </span>              
+       </div>
     </div>
-    <div class="lower">
-
-    </div>
+<div class="lower">
     <h1>
         <font color ="Yellow">
             Coming Soon: Video Demo
@@ -82,6 +68,7 @@
             </font>
         </p>
     </div>
+</div>
     <script>
          function selectpage(i) 
 {

@@ -7,12 +7,28 @@ h1
 {
     color: yellow;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger;
+    font-size: x-larger;
 }
+
+h3
+{
+    color: yellow;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+
+}
+
+pre
+{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 
 p
 {
-
+    color: yellow;
 }
 
 #page_viewer
@@ -27,21 +43,6 @@ p
     background-color: yellow;
 }
 
-.upper
-{
-
-}
-
-.center
-{
-
-}
-
-.lower
-{
-
-}
-
 .footer
 {
     font-size: smaller;
@@ -51,43 +52,37 @@ p
 
 .viewnav
 {
-    display: flex;
     background-color: green;   
-}
-
-.viewnav_inner
-{
-
-}
-
-.view
-{
-
-}
-.viewer
-{
-
-}
-
-#wrapper
-{
-
 }
 
 .grid-container 
 {
     display: grid;
     grid-template-columns: auto auto;
-    /* Not needing background color for this
-    background-color:white;
-    */
     padding: 10px;
   }
+
   .grid-item 
   {
     background-color: black;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
+    text-align: center;
+  }
+
+  .welcome_page
+  {
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  #button_group
+  {
+    margin-left: 35%;
+  }
+
+  #index
+  {
     text-align: center;
   }
