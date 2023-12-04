@@ -28,7 +28,7 @@
                 Navigation
             </h3>          
             <div class="viewnav">
-                <span id="button_group">
+                <div id="button_group">
                     <button type="button" onclick="selectpage(0)">
                         Home
                     </button>
@@ -42,7 +42,7 @@
                         Code
                     </button>
                     <button type="button" onclick="selectpage(4)">                                    References                    </button>
-                </span>
+                </div>
             </div>
         </div>    
         <h2>
@@ -55,7 +55,15 @@
             </span>              
        </div>
     </div>
+    <div class="video" style="text-align: center;">
+        <video id="vid_pres" style="width: 800px; max-width: 100%;"
+        controls>
+            <source src="./video/final video.mp4">
+            "Your browser does not support the video tag."
+        </video>
+    </div>
 <div class="lower">
+    <!--
     <h1>
         <font color ="Yellow">
             Coming Soon: Video Demo
@@ -64,10 +72,11 @@
     <div class="lower">
         <p class="footer">
             <font color="Yellow">
-                <!-- Website design by Jonathan Golden.--> For comments additional information contact @ emailaddress
+                Website design by Jonathan Golden. For comments additional information contact @ emailaddress
             </font>
         </p>
     </div>
+    -->
 </div>
     <script>
          function selectpage(i) 
@@ -87,7 +96,7 @@
     }
     if(i == 3) 
     {
-        a = "https://www.github.com/DynamicGroceryListGroup"
+        a = "./html/code.html"
     }
     if(i == 4) 
     {
